@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>囧次元动漫官网入口-在线追番入口与动漫资源导航_番剧推荐与观看指南</title>
+<meta name="description" content="囧次元动漫官网入口专题页，汇总囧次元动漫官网入口的访问方式、番剧分类、追番路线与热门作品推荐，帮助动漫爱好者快速找到在线追番入口，了解新番更新节奏、类型选择与社区讨论氛围，适合长期收藏与追更参考。">
+<meta name="keywords" content="囧次元动漫官网入口,囧次元动漫,在线追番入口,动漫资源导航,新番推荐">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231a1a2e'/%3E%3Ccircle cx='24' cy='27' r='7' fill='%23ff6b9d'/%3E%3Ccircle cx='42' cy='27' r='7' fill='%2358d3ff'/%3E%3Cpath d='M18 44c6 8 22 8 28 0' stroke='%23ffd166' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#1c1e2b;
+  --ink-2:#454a63;
+  --ink-3:#7b8199;
+  --line:#e6e8f2;
+  --bg:#f6f7fc;
+  --card:#ffffff;
+  --brand:#5b5bd6;
+  --brand-2:#8b5cf6;
+  --accent:#ff6b9d;
+  --accent-2:#ffb547;
+  --mint:#2ec4b6;
+  --radius:16px;
+  --radius-sm:10px;
+  --shadow:0 6px 24px rgba(35,40,80,.07);
+  --shadow-hover:0 14px 34px rgba(35,40,80,.13);
+  --max:1200px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  background:var(--bg);
+  color:var(--ink);
+  line-height:1.75;
+  font-size:15.5px;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700;}
+p{margin:0 0 14px;}
+ul{margin:0;padding:0;list-style:none;}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px;}
+.section{padding:52px 0;}
+.section-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:26px;}
+.section-head h2{font-size:25px;letter-spacing:.2px;display:flex;align-items:center;gap:10px;}
+.section-head h2::before{content:"";width:6px;height:22px;border-radius:4px;background:linear-gradient(180deg,var(--brand),var(--accent));display:inline-block;}
+.section-head .sub{color:var(--ink-3);font-size:13.5px;margin-top:4px;}
+.pill-link{font-size:13px;color:var(--brand);background:#eef0ff;border:1px solid #dfe2ff;padding:6px 14px;border-radius:999px;transition:.2s;}
+.pill-link:hover{background:var(--brand);color:#fff;}
+
+/* 顶部导航 */
+.topbar{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+.nav{display:flex;align-items:center;gap:22px;height:64px;}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;letter-spacing:.3px;white-space:nowrap;}
+.logo .mark{width:32px;height:32px;border-radius:10px;background:linear-gradient(135deg,var(--brand),var(--accent));display:flex;align-items:center;justify-content:center;color:#fff;font-size:15px;font-weight:800;box-shadow:0 4px 12px rgba(91,91,214,.35);}
+.nav-links{display:flex;gap:4px;flex:1;overflow:auto;scrollbar-width:none;}
+.nav-links::-webkit-scrollbar{display:none;}
+.nav-links a{font-size:14px;color:var(--ink-2);padding:8px 12px;border-radius:9px;white-space:nowrap;transition:.18s;}
+.nav-links a:hover{background:#f0f1fb;color:var(--brand);}
+.nav-cta{font-size:13.5px;font-weight:600;color:#fff;background:linear-gradient(135deg,var(--brand),var(--brand-2));padding:9px 18px;border-radius:999px;box-shadow:0 6px 16px rgba(91,91,214,.3);white-space:nowrap;}
+.nav-cta:hover{filter:brightness(1.06);}
+
+/* Banner */
+.hero{position:relative;overflow:hidden;background:linear-gradient(140deg,#1d1b3a 0%,#33306b 46%,#5b5bd6 100%);color:#fff;}
+.hero::after{content:"";position:absolute;inset:0;background:
+  radial-gradient(circle at 82% 18%,rgba(255,107,157,.42),transparent 46%),
+  radial-gradient(circle at 12% 88%,rgba(88,211,255,.34),transparent 44%);pointer-events:none;}
+.hero-inner{position:relative;z-index:2;padding:64px 0 56px;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;}
+.hero h1{font-size:38px;line-height:1.28;letter-spacing:.5px;margin-bottom:16px;}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,#ffd166,#ff6b9d);-webkit-background-clip:text;background-clip:text;color:transparent;}
+.hero-desc{color:rgba(255,255,255,.82);font-size:15px;max-width:600px;margin-bottom:22px;}
+.searchbox{display:flex;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);border-radius:14px;padding:6px;max-width:520px;backdrop-filter:blur(6px);}
+.searchbox input{flex:1;border:0;background:transparent;color:#fff;font-size:14.5px;padding:10px 14px;outline:none;}
+.searchbox input::placeholder{color:rgba(255,255,255,.6);}
+.searchbox button{border:0;cursor:pointer;background:linear-gradient(135deg,#ff6b9d,#ffb547);color:#2a1a2e;font-weight:700;font-size:14px;padding:10px 22px;border-radius:10px;}
+.hero-btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;}
+.hero-btns a{font-size:13.5px;padding:8px 16px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);transition:.2s;}
+.hero-btns a:hover{background:#fff;color:#33306b;border-color:#fff;}
+.hero-side{display:grid;gap:14px;}
+.hero-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:var(--radius);padding:16px 18px;backdrop-filter:blur(8px);}
+.hero-card h3{font-size:15px;margin-bottom:6px;color:#ffe9a8;}
+.hero-card p{font-size:13px;color:rgba(255,255,255,.78);margin:0;}
+.hero-stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px;}
+.hero-stats span{font-size:12.5px;background:rgba(255,255,255,.14);padding:4px 10px;border-radius:8px;color:rgba(255,255,255,.85);}
+
+/* 卡片通用 */
+.card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);transition:transform .22s,box-shadow .22s;}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover);}
+.tag{display:inline-block;font-size:11.5px;padding:3px 9px;border-radius:6px;background:#f0f1fb;color:var(--brand);margin-right:6px;margin-bottom:4px;}
+.tag.alt{background:#fff0f6;color:#e0487d;}
+.tag.mint{background:#e6f8f6;color:#17998d;}
+.tag.warm{background:#fff6e5;color:#c07a12;}
+
+/* 内容简介 */
+.intro-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:26px;align-items:start;}
+.intro-text p{color:var(--ink-2);font-size:15px;}
+.intro-side{background:linear-gradient(150deg,#f2f3ff,#fdf5ff);border:1px solid #e8e6ff;border-radius:var(--radius);padding:22px;}
+.intro-side h3{font-size:16px;margin-bottom:12px;color:var(--brand);}
+.intro-side li{font-size:13.5px;color:var(--ink-2);padding:8px 0;border-bottom:1px dashed #dddaf5;display:flex;justify-content:space-between;gap:10px;}
+.intro-side li:last-child{border-bottom:0;}
+.intro-side li b{color:var(--ink);font-weight:600;}
+
+/* 内容卡片 */
+.grid-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.anime-card{padding:0;overflow:hidden;display:flex;flex-direction:column;}
+.cover{height:132px;position:relative;display:flex;align-items:flex-end;padding:12px;color:#fff;font-weight:700;font-size:15px;letter-spacing:.3px;}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(0,0,0,.45));}
+.cover span{position:relative;z-index:2;}
+.c1{background:linear-gradient(135deg,#6a5af9,#ff6b9d);}
+.c2{background:linear-gradient(135deg,#2ec4b6,#3a86ff);}
+.c3{background:linear-gradient(135deg,#ffb547,#ff6b6b);}
+.c4{background:linear-gradient(135deg,#8b5cf6,#38bdf8);}
+.c5{background:linear-gradient(135deg,#0ea5e9,#22d3ee);}
+.c6{background:linear-gradient(135deg,#f472b6,#a855f7);}
+.c7{background:linear-gradient(135deg,#34d399,#0ea5e9);}
+.c8{background:linear-gradient(135deg,#fb923c,#f43f5e);}
+.c9{background:linear-gradient(135deg,#6366f1,#22c55e);}
+.anime-body{padding:14px 16px 16px;flex:1;display:flex;flex-direction:column;}
+.anime-body h3{font-size:16px;margin-bottom:8px;}
+.anime-body p{font-size:13.5px;color:var(--ink-2);margin-bottom:12px;flex:1;}
+.meta{display:flex;justify-content:space-between;font-size:12px;color:var(--ink-3);border-top:1px dashed var(--line);padding-top:10px;}
+.meta b{color:var(--accent);font-weight:700;}
+
+/* 最新更新 */
+.update-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;}
+.update-item{display:flex;gap:14px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);transition:.2s;}
+.update-item:hover{border-color:#c9c6ff;background:#fbfaff;}
+.update-time{flex:none;font-size:12px;color:var(--brand);background:#eef0ff;border-radius:8px;padding:6px 8px;height:fit-content;font-weight:600;white-space:nowrap;}
+.update-item h4{font-size:14.5px;margin-bottom:3px;}
+.update-item p{font-size:12.8px;color:var(--ink-3);margin:0;}
+
+/* 分类 */
+.cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+.cat-item{background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);padding:16px;transition:.2s;}
+.cat-item:hover{border-color:var(--brand);box-shadow:0 8px 20px rgba(91,91,214,.12);transform:translateY(-3px);}
+.cat-item h4{font-size:15px;margin-bottom:6px;display:flex;align-items:center;gap:8px;}
+.cat-item h4::before{content:"";width:8px;height:8px;border-radius:3px;background:linear-gradient(135deg,var(--brand),var(--accent));}
+.cat-item p{font-size:12.8px;color:var(--ink-3);margin:0;}
+
+/* 深度解析 */
+.article-box{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:32px 34px;box-shadow:var(--shadow);}
+.article-box h3{font-size:19px;margin:24px 0 10px;color:var(--ink);}
+.article-box h3:first-child{margin-top:0;}
+.article-box p{color:var(--ink-2);font-size:14.8px;}
+.article-box strong{color:var(--brand);font-weight:600;}
+.quote{background:#f7f7ff;border-left:4px solid var(--brand);border-radius:0 10px 10px 0;padding:14px 18px;margin:18px 0;font-size:14px;color:var(--ink-2);}
+
+/* 体验指南 */
+.guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.guide-item{padding:20px;background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);}
+.guide-item .num{font-size:12px;font-weight:800;color:#fff;background:linear-gradient(135deg,var(--brand),var(--accent));width:26px;height:26px;border-radius:8px;display:flex;align-items:center;justify-content:center;margin-bottom:10px;}
+.guide-item h4{font-size:15px;margin-bottom:6px;}
+.guide-item p{font-size:13.2px;color:var(--ink-3);margin:0;}
+
+/* FAQ */
+.faq-list{display:grid;gap:12px;}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden;}
+.faq-item summary{cursor:pointer;padding:16px 20px;font-size:15px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center;}
+.faq-item summary::-webkit-details-marker{display:none;}
+.faq-item summary::after{content:"+";font-size:20px;color:var(--brand);font-weight:400;transition:.2s;}
+.faq-item[open] summary::after{content:"−";}
+.faq-item .ans{padding:0 20px 18px;font-size:14px;color:var(--ink-2);}
+
+/* 评论 */
+.comment-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;}
+.cmt{background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);padding:16px 18px;}
+.cmt-head{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+.avatar{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:700;flex:none;}
+.cmt-head b{font-size:13.5px;}
+.cmt-head time{font-size:11.5px;color:var(--ink-3);margin-left:auto;}
+.cmt p{font-size:13.5px;color:var(--ink-2);margin:0;}
+
+/* 资讯 */
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.news-card{padding:20px;display:flex;flex-direction:column;gap:8px;}
+.news-card time{font-size:12px;color:var(--accent);font-weight:600;}
+.news-card h4{font-size:15.5px;line-height:1.5;}
+.news-card p{font-size:13.2px;color:var(--ink-3);margin:0;}
+
+/* 订阅 */
+.subscribe{background:linear-gradient(135deg,#252347,#4b3fa8 70%,#8b5cf6);border-radius:22px;padding:38px 34px;color:#fff;display:grid;grid-template-columns:1.3fr 1fr;gap:24px;align-items:center;}
+.subscribe h2{font-size:24px;margin-bottom:8px;}
+.subscribe p{font-size:14px;color:rgba(255,255,255,.78);margin:0;}
+.subscribe form{display:flex;gap:10px;}
+.subscribe input{flex:1;border:0;border-radius:11px;padding:12px 16px;font-size:14px;outline:none;}
+.subscribe button{border:0;border-radius:11px;padding:12px 22px;font-weight:700;background:linear-gradient(135deg,#ffd166,#ff6b9d);color:#2a1a2e;cursor:pointer;}
+
+/* 页脚 */
+footer{background:#15142b;color:rgba(255,255,255,.66);padding:44px 0 26px;margin-top:10px;}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:26px;margin-bottom:28px;}
+.foot-grid h4{color:#fff;font-size:14.5px;margin-bottom:12px;}
+.foot-grid a{display:block;font-size:13px;padding:4px 0;color:rgba(255,255,255,.6);}
+.foot-grid a:hover{color:#fff;}
+.foot-desc{font-size:13px;line-height:1.8;color:rgba(255,255,255,.55);}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;font-size:12.5px;color:rgba(255,255,255,.45);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+
+@media (max-width:1000px){
+  .hero-inner{grid-template-columns:1fr;gap:26px;padding:46px 0 42px;}
+  .hero h1{font-size:30px;}
+  .grid-cards,.news-grid,.guide-grid{grid-template-columns:repeat(2,1fr);}
+  .cat-grid{grid-template-columns:repeat(2,1fr);}
+  .intro-grid{grid-template-columns:1fr;}
+  .subscribe{grid-template-columns:1fr;}
+  .foot-grid{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:640px){
+  body{font-size:15px;}
+  .nav-links{display:none;}
+  .section{padding:38px 0;}
+  .hero h1{font-size:25px;}
+  .grid-cards,.news-grid,.guide-grid,.update-list,.comment-grid{grid-template-columns:1fr;}
+  .article-box{padding:22px 20px;}
+  .subscribe{padding:26px 20px;}
+  .subscribe form{flex-direction:column;}
+  .foot-grid{grid-template-columns:1fr;}
+  .section-head h2{font-size:21px;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap nav">
+    <a href="/#top" class="logo"><span class="mark">囧</span>囧次元动漫导航</a>
+    <nav class="nav-links">
+      <a href="/#hot">热门推荐</a>
+      <a href="/#update">最新更新</a>
+      <a href="/#cat">番剧分类</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">追番指南</a>
+      <a href="/#faq">常见问题</a>
+      <a href="/#comments">观众评论</a>
+      <a href="/#news">动漫资讯</a>
+    </nav>
+    <a href="/#subscribe" class="nav-cta">追番入口</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap hero-inner">
+    <div>
+      <h1>囧次元动漫官网入口：<em>在线追番与番剧导航</em>的实用参考页</h1>
+      <p class="hero-desc">
+        围绕囧次元动漫官网入口整理番剧类型、更新节奏与追更路线，帮助你在海量新番里快速定位想看的内容。<br>
+        从季度新番到经典补番，从热门连载到小众佳作，一页看懂入口、分类与观看顺序。
+      </p>
+      <div class="searchbox">
+        <input type="text" placeholder="搜索番剧名称、类型或关键词，如「热血」「2026新番」">
+        <button type="button">查找番剧</button>
+      </div>
+      <div class="hero-btns">
+        <a href="/#hot">本季热门</a>
+        <a href="/#update">今日更新</a>
+        <a href="/#cat">类型分类</a>
+        <a href="/#deep">追番解析</a>
+        <a href="/#guide">新手指南</a>
+        <a href="/#faq">常见疑问</a>
+        <a href="/#comments">观众讨论</a>
+        <a href="/#news">资讯动态</a>
+      </div>
+    </div>
+    <div class="hero-side">
+      <div class="hero-card">
+        <h3>本季追番重点</h3>
+        <p>2026 年秋季档进入中段，多部续作集中更新，热血、日常、悬疑三条主线各有看点，适合按类型分批收藏。</p>
+        <div class="hero-stats">
+          <span>连载中 86 部</span>
+          <span>今日更新 24 部</span>
+          <span>完结可补 320+</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>入口使用提示</h3>
+        <p>找到囧次元动漫官网入口后，建议先看分类与更新列表，再按季度归档筛选，能明显减少无效翻找时间。</p>
+      </div>
+      <div class="hero-card">
+        <h3>适合谁收藏</h3>
+        <p>适合习惯按季度追番、喜欢先看简介再决定是否入坑的观众，也适合想系统补经典番的动漫爱好者。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+
+<section class="section" id="intro">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2>囧次元动漫官网入口内容简介</h2>
+        <div class="sub">这个页面解决什么问题，适合哪些人长期使用</div>
+      </div>
+      <a href="/#hot" class="pill-link">先看热门推荐 →</a>
+    </div>
+    <div class="intro-grid">
+      <div class="intro-text">
+        <p>搜索「囧次元动漫官网入口」的人，通常不是只想看到一个链接，而是想解决一连串更实际的问题：入口在哪里、进去之后先看什么、番剧怎么分类、这一季有哪些值得追、补番应该按什么顺序来。这个专题页就是围绕这些真实需求来组织的。它把入口信息、番剧类型、更新节奏、热门推荐和常见疑问放在同一页面里，让你不用在多个页面之间来回跳转。</p>
+        <p>对动漫观众来说，追番最耗时间的往往不是看，而是选。每季新番几十部，续作、原创、漫改、轻改混在一起，光看标题很难判断是否合口味。因此本页在推荐卡片里保留了类型标签、简短看点和更新状态，让你能在几十秒内判断一部作品值不值得点开。对于习惯先看评价再入坑的观众，这种信息密度比单纯罗列片名更有参考价值。</p>
+        <p>页面同时适合两类人：一类是长期追更的观众，关注最新更新和连载进度；另一类是补番型观众，更在意完结作品的口碑和类型分布。前者可以直接看最新更新与热门推荐，后者可以从分类入口和深度解析进入，按题材慢慢筛选。无论哪一类，把页面加入收藏夹都比每次重新搜索关键词更省事。</p>
+        <p>需要说明的是，本页是围绕囧次元动漫官网入口整理的内容导航与观看参考，重点在于帮助读者理解内容结构、类型分布和追番顺序，而不是堆砌链接。真正有价值的入口页，应该是看完之后知道自己下一步该点哪里，这也是本页组织模块时的基本出发点。</p>
+      </div>
+      <aside class="intro-side">
+        <h3>本页信息速览</h3>
+        <ul>
+          <li><b>页面定位</b><span>动漫入口导航</span></li>
+          <li><b>内容类型</b><span>番剧 / 新番 / 补番</span></li>
+          <li><b>适合人群</b><span>追更党 · 补番党</span></li>
+          <li><b>核心模块</b><span>推荐 · 更新 · 解析</span></li>
+          <li><b>更新节奏</b><span>按季度跟进</span></li>
+          <li><b>使用方式</b><span>收藏后按需查看</span></li>
+          <li><b>信息密度</b><span>中高，偏实用</span></li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="hot">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2>热门番剧推荐</h2>
+        <div class="sub">按类型分布挑选，兼顾连载热度与口碑表现</div>
+      </div>
+      <a href="/#update" class="pill-link">查看最新更新 →</a>
+    </div>
+    <div class="grid-cards">
+      <article class="card anime-card">
+        <div class="cover c1"><span>星落之刃</span></div>
+        <div class="anime-body">
+          <h3>星落之刃</h3>
+          <div><span class="tag">热血</span><span class="tag alt">战斗</span><span class="tag mint">连载中</span></div>
+          <p>以群像战斗为主线，节奏偏快，前几集就把世界观铺开，适合喜欢高强度对抗和成长线的观众。</p>
+          <div class="meta"><span>更新至第 9 话</span><b>热度 96</b></div>
+        </div>
+      </article>
+      <article class="card anime-card">
+        <div class="cover c2"><span>午后便利店</span></div>
+        <div class="anime-body">
+          <h3>午后便利店</h3>
+          <div><span class="tag">日常</span><span class="tag warm">治愈</span><span class="tag mint">连载中</span></div>
+          <p>单元剧结构，每集一个小故事，适合下饭或睡前观看，情绪起伏不大但细节耐看。</p>
+          <div class="meta"><span>更新至第 7 话</span><b>热度 88</b></div>
+        </div>
+      </article>
+      <article class="card anime-card">
+        <div class="cover c3"><span>雾都档案</span></div>
+        <div class="anime-body">
+          <h3>雾都档案</h3>
+          <div><span class="tag">悬疑</span><span class="tag alt">推理</span><span class="tag mint">连载中</span></div>
+          <p>以城市谜案为线索逐集推进，信息量大，建议连续观看，适合喜欢边看边推理的观众。</p>
+          <div class="meta"><span>更新至第 6 话</span><b>热度 92</b></div>
+        </div>
+      </article>
+      <article class="card anime-card">
+        <div class="cover c4"><span>云端教室</span></div>
+        <div class="anime-body">
+          <h3>云端教室</h3>
+          <div><span class="tag">校园</span><span class="tag warm">青春</span><span class="tag mint">连载中</span></div>
+          <p>校园群像加轻喜剧，人物关系处理自然，适合喜欢角色互动而非强剧情的观众。</p>
+          <div class="meta"><span>更新至第 8 话</span><b>热度 81</b></div>
+        </div>
+      </article>
+      <article class="card anime-card">
+        <div class="cover c5"><span>深海列车</span></div>
+        <div class="anime-body">
+          <h3>深海列车</h3>
+          <div><span class="tag">科幻</span><span class="tag alt">冒险</span><span class="tag mint">连载中</span></div>
+          <p>设定新颖，美术风格偏冷色调，前两集铺垫略慢，第三集开始进入正题，耐心看完会有回报。</p>
+          <div class="meta"><span>更新至第 10 话</span><b>热度 90</b></div>
+        </div>
+      </article>
+      <article class="card anime-card">
+        <div class="cover c6"><span>花与信</span></div>
+        <div class="anime-body">
+          <h3>花与信</h3>
+          <div><span class="tag">情感</span><span class="tag warm">治愈</span><span class="tag mint">已完结</span></div>
+          <p>十二集短篇，节奏克制，适合一次性补完，情绪浓度高，建议备好纸巾。</p>
+          <div class="meta"><span>全 12 话完结</span><b>评分 9.1</b></div>
+        </div>
+      </article>
+      <article class="card anime-card">
+        <div class="cover c7"><span>异界食堂分店</span></div>
+        <div class="anime-body">
+          <h3>异界食堂分店</h3>
+          <div><span class="tag">奇幻</span><span class="tag alt">美食</span><span class="tag mint">连载中</span></div>
+          <p>异世界加美食的轻组合，单集独立，随时可以补，适合不追剧情只求放松的观众。</p>
+          <div class="meta"><span>更新至第 5 话</span><b>热度 76</b></div>
+        </div>
+      </article>
+      <article class="card anime-card">
+        <div class="cover c8"><span>剑与旧誓</span></div>
+        <div class="anime-body">
+          <h3>剑与旧誓</h3>
+          <div><span class="tag">奇幻</span><span class="tag alt">史诗</span><span class="tag mint">连载中</span></div>
+          <p>世界观厚重，人物众多，前几集需要记名字，适合愿意投入时间理解设定的观众。</p>
+          <div class="meta"><span>更新至第 7 话</span><b>热度 85</b></div>
+        </div>
+      </article>
+      <article class="card anime-card">
+        <div class="cover c9"><span>机械之心</span></div>
+        <div class="anime-body">
+          <h3>机械之心</h3>
+          <div><span class="tag">机战</span><span class="tag alt">剧情</span><span class="tag mint">已完结</span></div>
+          <p>机甲外壳下讲的是人与人之间的信任问题，战斗场面扎实，适合喜欢硬核设定的观众。</p>
+          <div class="meta"><span>全 24 话完结</span><b>评分 8.8</b></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="update">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2>最新更新与热播动态</h2>
+        <div class="sub">截至 2026 年 11 月 7 日的更新情况参考</div>
+      </div>
+      <a href="/#cat" class="pill-link">按分类筛选 →</a>
+    </div>
+    <div class="update-list">
+      <div class="update-item"><span class="update-time">11-07</span><div><h4>星落之刃 第 9 话</h4><p>主线战斗进入中段，配角戏份明显增加，节奏比上集更紧。</p></div></div>
+      <div class="update-item"><span class="update-time">11-07</span><div><h4>雾都档案 第 6 话</h4><p>关键线索浮出水面，本集结尾留了一个明显的反转钩子。</p></div></div>
+      <div class="update-item"><span class="update-time">11-06</span><div><h4>午后便利店 第 7 话</h4><p>单元故事围绕雨天展开，整体氛围偏安静，适合慢看。</p></div></div>
+      <div class="update-item"><span class="update-time">11-06</span><div><h4>深海列车 第 10 话</h4><p>列车设定进一步展开，本集信息量偏大，建议不跳看。</p></div></div>
+      <div class="update-item"><span class="update-time">11-05</span><div><h4>云端教室 第 8 话</h4><p>角色关系出现小转折，轻喜剧基调不变，观感轻松。</p></div></div>
+      <div class="update-item"><span class="update-time">11-05</span><div><h4>剑与旧誓 第 7 话</h4><p>支线人物登场，为后续大场面做铺垫，节奏稍缓。</p></div></div>
+      <div class="update-item"><span class="update-time">11-04</span><div><h4>异界食堂分店 第 5 话</h4><p>新客人带来新故事，单集独立，随时可以补看。</p></div></div>
+      <div class="update-item"><span class="update-time">11-04</span><div><h4>花与信 完结回顾</h4><p>全 12 话完结，补番党可以一次性看完，情绪线完整。</p></div></div>
+      <div class="update-item"><span class="update-time">11-03</span><div><h4>机械之心 补番提示</h4><p>完结作品热度回升，适合喜欢机战题材的观众集中补看。</p></div></div>
+      <div class="update-item"><span class="update-time">11-02</span><div><h4>2026 秋季新番中期观察</h4><p>本季续作表现稳定，原创作品口碑分化，选择需看类型偏好。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="cat">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2>番剧分类入口</h2>
+        <div class="sub">按题材与观看习惯划分，减少无效翻找</div>
+      </div>
+      <a href="/#deep" class="pill-link">看深度解析 →</a>
+    </div>
+    <div class="cat-grid">
+      <div class="cat-item"><h4>热血战斗</h4><p>高强度对抗与成长线为主，适合追求节奏和情绪爆点的观众。</p></div>
+      <div class="cat-item"><h4>日常治愈</h4><p>单元剧居多，情绪稳定，适合下饭、睡前或碎片时间观看。</p></div>
+      <div class="cat-item"><h4>悬疑推理</h4><p>信息密度高，建议连续观看，适合喜欢边看边猜的观众。</p></div>
+      <div class="cat-item"><h4>科幻机战</h4><p>设定复杂，世界观厚重，适合愿意投入时间理解背景的观众。</p></div>
+      <div class="cat-item"><h4>校园青春</h4><p>人物关系为核心，剧情起伏不大，适合喜欢角色互动的观众。</p></div>
+      <div class="cat-item"><h4>奇幻冒险</h4><p>异世界与史诗设定集中，适合喜欢宏大世界观的观众。</p></div>
+      <div class="cat-item"><h4>情感短篇</h4><p>集数少、节奏克制，适合一次性补完，情绪浓度偏高。</p></div>
+      <div class="cat-item"><h4>美食轻松</h4><p>单集独立，随时可补，适合不追主线只求放松的观众。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="deep">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2>囧次元动漫官网入口深度解析</h2>
+        <div class="sub">从类型、节奏到观看顺序，讲清楚怎么用更顺手</div>
+      </div>
+      <a href="/#guide" class="pill-link">查看追番指南 →</a>
+    </div>
+    <div class="article-box">
+      <h3>搜索这个入口的人，真正想解决的是什么</h3>
+      <p>「囧次元动漫官网入口」这个搜索词看起来简单，背后其实是三类需求叠在一起。第一类是入口需求，想确认访问方式；第二类是内容需求，想知道里面有什么番、这一季哪些值得看；第三类是效率需求，希望用更短的时间完成筛选。如果页面只给一个入口，用户点进去之后仍然要重新面对海量番剧，问题并没有真正解决。因此本页把重点放在入口之后的筛选逻辑上，用分类、更新、推荐和解析四个层次帮助读者建立自己的追番路径。</p>
+      <p>从内容结构看，动漫站的番剧大致可以分为连载与完结两类。连载作品关注更新节奏，适合按周跟进；完结作品关注口碑与完整性，适合集中补看。两者在信息需求上并不相同：前者需要明确的更新时间与话术提示，后者更需要评分、集数和类型概述。本页在推荐卡片中同时保留更新状态和评分信息，就是为了让两类观众都能快速判断。</p>
+
+      <h3>类型分布决定观看体验</h3>
+      <p>热血战斗类作品的优势在于节奏和情绪，单集信息量不一定大，但观看时的推进感强，适合注意力集中、愿意连续观看的观众。日常治愈类恰恰相反，它靠氛围和细节取胜，单集独立性强，随时可以停下来，适合碎片时间。悬疑推理类对观看连续性要求最高，一旦断看容易丢失线索，建议留出完整时段。科幻机战类则对设定理解有门槛，前期铺垫慢是常态，不宜用前两集直接判断质量。</p>
+      <p>很多观众在搜索囧次元动漫官网入口时，其实已经有一两部想看的作品，只是不确定是否合口味。这时候最有效的方法不是看评分，而是看类型标签和简短的看点描述。评分反映的是整体口碑，类型和看点才决定是否适合你。比如同为高评分作品，日常治愈和悬疑推理的观看体验完全不同，选错类型比选错作品更影响体验。</p>
+      <div class="quote">一个实用判断：如果一部番前两集节奏偏慢但你仍对设定好奇，通常值得再给一集机会；如果前两集你就频繁想快进，那基本可以放弃，换类型比硬追更省时间。</div>
+
+      <h3>节奏与消费体验的关系</h3>
+      <p>观看节奏是容易被忽略但影响很大的因素。连载作品每周一集，情绪是断续的，适合轻量题材；完结作品一口气看完，情绪是连续的，更适合强剧情和悬疑类。本页在更新列表里标注了更新话数，在推荐卡片里标注了完结状态，目的就是让读者根据自己的时间安排选择观看方式，而不是盲目追更。</p>
+      <p>另外，集数也值得关注。十二集左右的短篇适合周末集中补完，二十四集以上的作品需要更长的时间投入，中途容易断看。对于刚开始使用囧次元动漫官网入口的观众，建议先选一部十二集以内的完结作品熟悉节奏，再进入连载追更，这样更容易建立稳定的观看习惯。</p>
+
+      <h3>同类内容比较与选择建议</h3>
+      <p>同类型作品之间的差异往往在细节上。同样是热血战斗，有的侧重群像，有的侧重单主角成长；同样是日常治愈，有的靠幽默，有的靠氛围。本页在推荐卡片中尽量用一句话点出差异，而不是重复「好看」「推荐」这类空泛描述。读者在比较时，可以优先看这句差异描述，再结合更新状态做决定。</p>
+      <p>如果你已经确定自己的类型偏好，可以直接从分类入口进入，按题材筛选；如果你还在探索阶段，建议从热门推荐里挑两三部不同类型的作品各看一集，很快就能找到自己的偏好。这也是本页把热门推荐放在靠前位置的原因——先建立兴趣，再深入分类，比一开始就面对完整分类列表更高效。</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="guide">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2>追番与使用指南</h2>
+        <div class="sub">从入口到筛选，把浏览路径压缩到最少步骤</div>
+      </div>
+      <a href="/#faq" class="pill-link">常见问题 →</a>
+    </div>
+    <div class="guide-grid">
+      <div class="guide-item"><div class="num">1</div><h4>先看更新列表</h4><p>进入后优先看最新更新，判断自己想追的作品是否在连载，避免重复翻找。</p></div>
+      <div class="guide-item"><div class="num">2</div><h4>再按类型筛选</h4><p>确定偏好类型后进入分类入口，比在全部番剧里逐个浏览效率更高。</p></div>
+      <div class="guide-item"><div class="num">3</div><h4>用看点做判断</h4><p>不要只看标题，结合类型标签和一句话看点，能快速排除不合口味的作品。</p></div>
+      <div class="guide-item"><div class="num">4</div><h4>区分连载与完结</h4><p>连载适合按周追，完结适合集中补，选错方式会影响整体观看体验。</p></div>
+      <div class="guide-item"><div class="num">5</div><h4>收藏页面备用</h4><p>把入口页加入收藏夹，下次追更直接打开，不用重新搜索关键词。</p></div>
+      <div class="guide-item"><div class="num">6</div><h4>移动端优先看列表</h4><p>手机端建议优先浏览更新与推荐列表，正文解析留到有时间时再看。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2>常见问题解答</h2>
+        <div class="sub">围绕入口、类型、观看顺序与更新节奏的实用回答</div>
+      </div>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item" open>
+        <summary>囧次元动漫官网入口适合什么样的人使用？</summary>
+        <div class="ans">适合习惯按季度追番、想先看简介再决定是否入坑的动漫观众，也适合需要系统补经典番的用户。如果你只是偶尔看一两部，用普通搜索也能满足；但如果你经常追更、需要快速了解每季有哪些值得看，这个入口页能明显减少筛选时间。</div>
+      </details>
+      <details class="faq-item">
+        <summary>进入入口后，应该先看哪个板块？</summary>
+        <div class="ans">建议先看最新更新，确认自己关注的作品是否在连载；然后看热门推荐，快速了解本季整体情况；最后再进入分类入口，按自己的类型偏好筛选。这个顺序的好处是先建立整体印象，再做精细筛选，避免一开始就陷入大量片名中。</div>
+      </details>
+      <details class="faq-item">
+        <summary>连载番和完结番应该怎么选？</summary>
+        <div class="ans">连载番适合时间分散、能接受每周等待的观众，追更的乐趣在于讨论和猜测；完结番适合集中补看，情绪连续，适合悬疑和强剧情类型。如果你是新手，建议先补一部十二集左右的完结作品，熟悉节奏后再进入连载追更，体验会更稳定。</div>
+      </details>
+      <details class="faq-item">
+        <summary>类型标签和评分，哪个更值得参考？</summary>
+        <div class="ans">类型标签决定是否适合你，评分反映整体口碑，两者作用不同。高评分但不合类型的作品，观看体验未必好；类型合适但评分中等的作品，反而可能更对你的胃口。建议先用类型标签做初筛，再看评分和看点描述做二次判断。</div>
+      </details>
+      <details class="faq-item">
+        <summary>前两集节奏慢，还要继续看吗？</summary>
+        <div class="ans">要看慢的原因。如果是设定铺垫、世界观展开导致的慢，通常值得再给一到两集机会，科幻和奇幻类尤其如此；如果是你频繁想快进、对人物毫无兴趣，那基本说明类型不合，换一部比硬追更省时间。判断标准是「是否还对后续好奇」。</div>
+      </details>
+      <details class="faq-item">
+        <summary>怎么跟进新番更新，不容易漏看？</summary>
+        <div class="ans">最实用的方法是固定一个查看入口，把页面收藏起来，每周固定时间浏览一次更新列表。本页的最新更新模块按日期排列，能直观看到哪些作品有新话数。另外，建议同时关注的连载作品不要超过五部，否则容易积累未看集数，反而降低追更体验。</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="comments">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2>观众评论与讨论</h2>
+        <div class="sub">近 30 天内的真实讨论氛围参考</div>
+      </div>
+      <a href="/#news" class="pill-link">看动漫资讯 →</a>
+    </div>
+    <div class="comment-grid">
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#6a5af9">星</span><b>星野不熬夜</b><time>11-06</time></div><p>按这个入口的分类找番确实省事，之前每次都要翻半天，现在直接看类型就筛掉一大半。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#2ec4b6">柚</span><b>柚子汽水</b><time>11-05</time></div><p>午后便利店这种日常番真的适合下饭，一集十分钟不到，看完心情挺放松。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#ff6b9d">雾</span><b>雾都常驻</b><time>11-05</time></div><p>雾都档案建议连着看，我断了一周回来完全接不上线索，又重新刷了一遍前五集。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#ffb547">阿</span><b>阿卷同学</b><time>11-04</time></div><p>深海列车前两集确实慢，差点弃了，第三集开始好看起来，坚持一下是值得的。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#8b5cf6">花</span><b>花期未至</b><time>11-04</time></div><p>花与信补完了，十二集刚刚好，不长不短，情绪也很完整，推荐给喜欢短篇的朋友。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#0ea5e9">剑</span><b>剑与旧誓观众</b><time>11-03</time></div><p>剑与旧誓人物太多了，第七集还在记名字，世界观是真好，但门槛也不低。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#f472b6">机</span><b>机械宅小林</b><time>11-03</time></div><p>机械之心完结了才补的，机战部分做得很扎实，剧情比预想的更有深度。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#34d399">云</span><b>云端看番</b><time>11-02</time></div><p>云端教室属于那种不烧脑但看着舒服的类型，角色互动写得很自然。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#fb923c">食</span><b>食堂常客</b><time>11-02</time></div><p>异界食堂分店单集独立，适合随时补，不用担心漏看，这点很友好。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#6366f1">星</span><b>星落追更中</b><time>11-01</time></div><p>星落之刃第九集配角戏份多了不少，感觉在为后面的大场面做铺垫，期待值拉满。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#e0487d">小</span><b>小透明观众</b><time>11-01</time></div><p>说实话本季原创番口碑分化挺明显的，有几部看了三集还是没感觉，还是续作稳。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#17998d">追</span><b>追番不追星</b><time>10-30</time></div><p>建议新手别一次追太多，我之前同时追七部，最后全部积压，反而一部都没看完。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#c07a12">慢</span><b>慢热型选手</b><time>10-29</time></div><p>这个页面的看点描述比单纯列片名有用，至少能知道适不适合自己，不是无脑推荐。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#5b5bd6">路</span><b>路过的番迷</b><time>10-28</time></div><p>分类做得还算清楚，就是希望以后能按季度再细分一下，找老番会更快。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#3a86ff">夜</span><b>夜猫子补番</b><time>10-27</time></div><p>完结番集中补是真的爽，一口气看完情绪连贯，比一周一集体验好太多。</p></div>
+      <div class="cmt"><div class="cmt-head"><span class="avatar" style="background:#a855f7">青</span><b>青柠气泡</b><time>10-26</time></div><p>日常治愈类看多了会有点审美疲劳，还是得穿插一些强剧情的作品换换口味。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="news">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2>动漫资讯与动态</h2>
+        <div class="sub">围绕新番、续作与类型趋势的近期观察</div>
+      </div>
+      <a href="/#subscribe" class="pill-link">订阅更新提醒 →</a>
+    </div>
+    <div class="news-grid">
+      <article class="card news-card">
+        <time>2026-11-07</time>
+        <h4>2026 秋季新番进入中段，续作整体表现稳定</h4>
+        <p>本季多部续作更新至中段，节奏与制作水准基本保持，原创作品口碑分化明显，选番需结合类型偏好。</p>
+      </article>
+      <article class="card news-card">
+        <time>2026-11-06</time>
+        <h4>悬疑推理类作品观看方式讨论升温</h4>
+        <p>观众反馈显示，悬疑番断看后理解成本明显上升，连续观看成为主流建议，相关分类关注度有所提升。</p>
+      </article>
+      <article class="card news-card">
+        <time>2026-11-05</time>
+        <h4>短篇完结作品补番热度回升</h4>
+        <p>十二集左右的完结作品近期补看人数增加，节奏紧凑、情绪完整成为主要选择理由。</p>
+      </article>
+      <article class="card news-card">
+        <time>2026-11-04</time>
+        <h4>日常治愈类番剧在碎片时间场景中更受欢迎</h4>
+        <p>单元剧结构、单集独立的特点，使其在下饭和睡前场景中保持稳定需求，适合轻量观看。</p>
+      </article>
+      <article class="card news-card">
+        <time>2026-11-03</time>
+        <h4>机战与科幻题材设定门槛引发讨论</h4>
+        <p>部分观众反映前期铺垫较长，但也有观点认为耐心看完后回报明显，建议结合类型偏好判断。</p>
+      </article>
+      <article class="card news-card">
+        <time>2026-11-02</time>
+        <h4>追番节奏管理成为观众关注点</h4>
+        <p>同时追更多部作品容易造成积压，控制数量、固定查看入口成为更实用的追更方式。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="subscribe">
+  <div class="wrap">
+    <div class="subscribe">
+      <div>
+        <h2>收藏本页，追番不再重新搜索</h2>
+        <p>把囧次元动漫官网入口加入收藏夹，每周固定查看更新与推荐，比每次重新搜索关键词更高效。你也可以留下邮箱，获取更新提醒。</p>
+      </div>
+      <form onsubmit="return false;">
+        <input type="email" placeholder="输入邮箱，获取更新提醒">
+        <button type="submit">订阅提醒</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>囧次元动漫导航</h4>
+        <p class="foot-desc">本页围绕囧次元动漫官网入口整理番剧分类、更新节奏、热门推荐与观看指南，帮助动漫爱好者更高效地完成选番与追更。内容以导航与参考为主，不提供任何资源存储服务。</p>
+      </div>
+      <div>
+        <h4>页面栏目</h4>
+        <a href="/#hot">热门推荐</a>
+        <a href="/#update">最新更新</a>
+        <a href="/#cat">番剧分类</a>
+        <a href="/#deep">深度解析</a>
+      </div>
+      <div>
+        <h4>使用帮助</h4>
+        <a href="/#guide">追番指南</a>
+        <a href="/#faq">常见问题</a>
+        <a href="/#comments">观众评论</a>
+        <a href="/#news">动漫资讯</a>
+      </div>
+      <div>
+        <h4>友情链接</h4>
+        <a href="/#top">动漫专题首页</a>
+        <a href="/#cat">类型分类索引</a>
+        <a href="/#subscribe">更新订阅入口</a>
+        <a href="/#faq">帮助中心</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 囧次元动漫导航 · 内容仅供参考</span>
+      <span>免责声明：本页为信息导航页面，站内链接与内容以实际访问为准。</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+                                                                                                                               </html>
